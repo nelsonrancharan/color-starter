@@ -21,7 +21,7 @@ html, body {
 header {
   height: 300px;
   width: 100%;
-  background: #e3e3e3;
+  background: #1a0909;
 }
 
 
@@ -59,6 +59,8 @@ footer {
 /* Change the background colors below */
 
 @media (min-width: 768px) {
+
+
   header {
     background-color: #a8d122;
   }
@@ -73,17 +75,22 @@ footer {
 
   #column-3 {
     background-color: #7d7916;
+    width: 100%;
   }
 
   footer {
     background-color: #847f3a;
   }
-  
+
+  .col-3 {
+    width: 50%;
+  }
 }
 
 
 /*---------- Desktops ----------*/
 @media (min-width: 1200px) {
+
   header {
     background-color: #c22fa7;
   }
@@ -98,10 +105,17 @@ footer {
 
   #column-3 {
     background-color: #782182;
+    width:33.3%;
+    
   }
 
   footer {
     background-color: #962d7f;
   }
+
    
+.col-3 {
+  width:33.3%;
+}
+
 }
